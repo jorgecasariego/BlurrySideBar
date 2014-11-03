@@ -13,6 +13,8 @@
 		273424111A07EF760082F02E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 273424101A07EF760082F02E /* Images.xcassets */; };
 		273424141A07EF760082F02E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 273424121A07EF760082F02E /* LaunchScreen.xib */; };
 		273424201A07EF760082F02E /* BlurrySideBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2734241F1A07EF760082F02E /* BlurrySideBarTests.swift */; };
+		2734242A1A07F0030082F02E /* SideBarTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 273424291A07F0030082F02E /* SideBarTableViewController.swift */; };
+		2734242C1A07F4720082F02E /* SideBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2734242B1A07F4720082F02E /* SideBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		273424191A07EF760082F02E /* BlurrySideBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurrySideBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2734241E1A07EF760082F02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2734241F1A07EF760082F02E /* BlurrySideBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurrySideBarTests.swift; sourceTree = "<group>"; };
+		273424291A07F0030082F02E /* SideBarTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBarTableViewController.swift; sourceTree = "<group>"; };
+		2734242B1A07F4720082F02E /* SideBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,8 @@
 			children = (
 				273424091A07EF760082F02E /* AppDelegate.swift */,
 				2734240B1A07EF760082F02E /* ViewController.swift */,
+				273424291A07F0030082F02E /* SideBarTableViewController.swift */,
+				2734242B1A07F4720082F02E /* SideBar.swift */,
 				2734240D1A07EF760082F02E /* Main.storyboard */,
 				273424101A07EF760082F02E /* Images.xcassets */,
 				273424121A07EF760082F02E /* LaunchScreen.xib */,
@@ -213,6 +219,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2734240C1A07EF760082F02E /* ViewController.swift in Sources */,
+				2734242A1A07F0030082F02E /* SideBarTableViewController.swift in Sources */,
+				2734242C1A07F4720082F02E /* SideBar.swift in Sources */,
 				2734240A1A07EF760082F02E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
